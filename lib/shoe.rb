@@ -9,7 +9,6 @@ class Shoe
   end
 
   def self.get_unique_brands
-    BRANDS.uniq
     puts BRANDS
   end
 
