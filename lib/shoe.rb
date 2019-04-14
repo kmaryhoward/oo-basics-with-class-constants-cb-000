@@ -9,7 +9,7 @@ class Shoe
   end
 
   def self.get_unique_brands
-    puts BRANDS
+    puts BRANDS.uniq
   end
 
   def cobble
