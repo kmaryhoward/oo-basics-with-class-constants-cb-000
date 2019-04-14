@@ -8,6 +8,11 @@ class Shoe
     BRANDS << brand
   end
 
+  def self.get_unique_brands
+    BRANDS.uniq
+    puts BRANDS
+  end
+
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
